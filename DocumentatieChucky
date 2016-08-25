@@ -2,3 +2,5 @@ Chucky are in componenta senzori pentru mediul inconjurator(temperatura, luminoz
 Scopul acestuia este de a explora medii neprielnice omului, transmitand date inapoi. Este controlat prin intermediul unei aplicatii Android, printr-o conexiune bluetooth. Datele importante, precum temperatura, luminozitatea, umiditatea, coordonatele si oritarea sunt transmise prin cablu Raspberry Pi-ului, care le preia cu ajutorul unui script si le posteaza in timp real pe un server Apache2 hostat local pe el. Pe acest site sunt diponibile si date despre Chucky.
 Chucky foloseste un sistem inteligent prin care stie pozitia si orintarea lui in orice moment fara a folosii orice fel de senzor(accelerometru, GPS), in functie de comenziile pe care le primeste de la utilizator. Folosind coordonatele carteziene si orientarea acesta calculeaza si se intoarce cu succes la punctul de start.
 Pentru creearea acestui sistem au fost folosite multiple limbaje de programare, Html, Css, Arduino si Python.
+Bibliografie: Arduino Pentru Incepatori, Elemente Practice Arduino editia a 2-a;
+Webgrafie: robofun.ro
